@@ -18,10 +18,6 @@
         "detour": "DIRECT"
       },
       {
-        "tag": "dns_fakeip",
-        "address": "fakeip"
-      },
-      {
         "tag": "dns_resolver",
         "address": "223.5.5.5",
         "detour": "DIRECT"
@@ -44,47 +40,30 @@
         "disable_cache": true
       },
       {
-        "rule_set": "geosite-geolocation-!cn",
-        "query_type": [
-          "A",
-          "AAAA"
-        ],
-        "server": "dns_fakeip"
+        "clash_mode": "direct",
+        "server": "dns_direct"
+      },
+      {
+        "clash_mode": "global",
+        "server": "dns_proxy"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
         "server": "dns_proxy"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "server": "dns_direct"
       }
     ],
-    "final": "dns_direct",
-    "independent_cache": true,
-    "fakeip": {
-      "enabled": true,
-      "inet4_range": "198.18.0.0/15"
-    }
-  },
-  "ntp": {
-    "enabled": true,
-    "server": "time.apple.com",
-    "server_port": 123,
-    "interval": "30m",
-    "detour": "DIRECT"
+    "final": "dns_proxy"
   },
   "inbounds": [
     {
       "type": "mixed",
       "tag": "mixed-in",
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "listen_port": 2080
-    },
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "mixed",
-      "sniff": true
     }
   ],
   "outbounds": [
@@ -133,7 +112,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
-      "tolerance": 50
+      "tolerance": 200
     },
     {
       "type": "urltest",
@@ -372,6 +351,14 @@
         "outbound": "dns-out"
       },
       {
+        "rule_set": "myrules_direct",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "myrules_proxy",
+        "outbound": "🚀 节点选择"
+      },
+      {
         "rule_set": "LocalAreaNetwork",
         "outbound": "🎯 全球直连"
       },
@@ -421,7 +408,10 @@
         "outbound": "🎯 全球直连"
       },
       {
-        "rule_set": "geoip-cn",
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
         "outbound": "🎯 全球直连"
       }
     ],
@@ -511,6 +501,13 @@
         "download_detour": "DIRECT"
       },
       {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
+        "download_detour": "DIRECT"
+      },
+      {
         "tag": "geosite-category-ads-all",
         "type": "remote",
         "format": "binary",
@@ -523,6 +520,20 @@
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
         "download_detour": "DIRECT"
+      },
+      {
+        "tag": "myrules_proxy",
+        "type": "remote",
+        "format": "source",
+        "url": "https://gitlab.com/wyofnfuk/myrule/-/raw/main/myrules_proxy.json",
+        "download_detour": "DIRECT"
+      },
+      {
+        "tag": "myrules_direct",
+        "type": "remote",
+        "format": "source",
+        "url": "https://gitlab.com/wyofnfuk/myrule/-/raw/main/myrules_direct.json",
+        "download_detour": "DIRECT"
       }
     ],
     "auto_detect_interface": true,
@@ -532,9 +543,9 @@
     "clash_api": {
       "external_controller": "0.0.0.0:9090",
       "external_ui": "ui",
-      "secret": "",
-      "external_ui_download_url": "https://ghp.ci/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-      "external_ui_download_detour": "DIRECT",
+      "secret": "singbox",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "♻️ 自动选择",
       "default_mode": "rule"
     },
     "cache_file": {
