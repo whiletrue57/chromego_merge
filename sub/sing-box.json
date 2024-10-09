@@ -154,7 +154,7 @@
         "🇺🇸 United States_hysteria2_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "30m",
+      "interval": "1440m",
       "tolerance": 150
     },
     {
