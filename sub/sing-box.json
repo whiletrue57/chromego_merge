@@ -129,8 +129,8 @@
         "🔮 负载均衡",
         "DIRECT",
         "🇺🇸 United States_hy_6",
-        "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
+        "🇷🇺 Russia_hy_7",
+        "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -151,8 +151,8 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "🇺🇸 United States_hy_6",
-        "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
+        "🇷🇺 Russia_hy_7",
+        "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -176,8 +176,8 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "🇺🇸 United States_hy_6",
-        "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
+        "🇷🇺 Russia_hy_7",
+        "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -198,8 +198,8 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "🇺🇸 United States_hy_6",
-        "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
+        "🇷🇺 Russia_hy_7",
+        "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -242,8 +242,8 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "🇺🇸 United States_hy_6",
-        "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
+        "🇷🇺 Russia_hy_7",
+        "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -267,8 +267,8 @@
         "DIRECT",
         "♻️ 自动选择",
         "🇺🇸 United States_hy_6",
-        "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
+        "🇷🇺 Russia_hy_7",
+        "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -302,38 +302,40 @@
       }
     },
     {
-      "tag": "🇫🇷 France_hy_7",
+      "tag": "🇷🇺 Russia_hy_7",
       "type": "hysteria",
-      "server": "195.154.184.5",
-      "server_port": 22787,
+      "server": "185.22.155.71",
+      "server_port": 15424,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇫🇷 France_hy_8",
+      "tag": "🇷🇺 Russia_hy_8",
       "type": "hysteria",
-      "server": "195.154.184.5",
-      "server_port": 22787,
+      "server": "185.22.155.71",
+      "server_port": 15424,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "obfs": "dongtaiwang.com"
     },
     {
       "tag": "🇺🇸 United States_hy_9",
