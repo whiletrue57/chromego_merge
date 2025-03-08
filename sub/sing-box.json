@@ -129,7 +129,7 @@
         "🔮 负载均衡",
         "DIRECT",
         "🇺🇸 United States_hy_6",
-        "🇷🇺 Russia_hy_7",
+        "🇺🇸 United States_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
@@ -151,7 +151,7 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "🇺🇸 United States_hy_6",
-        "🇷🇺 Russia_hy_7",
+        "🇺🇸 United States_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
@@ -176,7 +176,7 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "🇺🇸 United States_hy_6",
-        "🇷🇺 Russia_hy_7",
+        "🇺🇸 United States_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
@@ -198,7 +198,7 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "🇺🇸 United States_hy_6",
-        "🇷🇺 Russia_hy_7",
+        "🇺🇸 United States_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
@@ -242,7 +242,7 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "🇺🇸 United States_hy_6",
-        "🇷🇺 Russia_hy_7",
+        "🇺🇸 United States_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
@@ -267,7 +267,7 @@
         "DIRECT",
         "♻️ 自动选择",
         "🇺🇸 United States_hy_6",
-        "🇷🇺 Russia_hy_7",
+        "🇺🇸 United States_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
@@ -302,16 +302,16 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_hy_7",
+      "tag": "🇺🇸 United States_hy_7",
       "type": "hysteria",
-      "server": "185.22.155.71",
-      "server_port": 24342,
+      "server": "108.181.24.77",
+      "server_port": 11512,
       "up_mbps": 50,
       "down_mbps": 80,
-      "auth_str": "",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "apple.com",
         "insecure": true,
         "alpn": [
           "h3"
