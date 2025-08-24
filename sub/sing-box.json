@@ -128,6 +128,8 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
+        "Unknown_hy2_0",
+        "Unknown_hy2_1",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -142,8 +144,6 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "Unknown_vless_0",
-        "Unknown_vless_1",
-        "Unknown_vless_2",
         "Unknown_vless_3"
       ]
     },
@@ -151,6 +151,8 @@
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
+        "Unknown_hy2_0",
+        "Unknown_hy2_1",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -165,8 +167,6 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "Unknown_vless_0",
-        "Unknown_vless_1",
-        "Unknown_vless_2",
         "Unknown_vless_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -177,6 +177,8 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
+        "Unknown_hy2_0",
+        "Unknown_hy2_1",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -191,8 +193,6 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "Unknown_vless_0",
-        "Unknown_vless_1",
-        "Unknown_vless_2",
         "Unknown_vless_3"
       ]
     },
@@ -200,6 +200,8 @@
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
+        "Unknown_hy2_0",
+        "Unknown_hy2_1",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -214,8 +216,6 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "Unknown_vless_0",
-        "Unknown_vless_1",
-        "Unknown_vless_2",
         "Unknown_vless_3"
       ]
     },
@@ -245,6 +245,8 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
+        "Unknown_hy2_0",
+        "Unknown_hy2_1",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -259,8 +261,6 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "Unknown_vless_0",
-        "Unknown_vless_1",
-        "Unknown_vless_2",
         "Unknown_vless_3"
       ]
     },
@@ -271,6 +271,8 @@
         "🚀 节点选择",
         "DIRECT",
         "♻️ 自动选择",
+        "Unknown_hy2_0",
+        "Unknown_hy2_1",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -285,10 +287,42 @@
         "🇺🇸 United States_hysteria2_2",
         "🇺🇸 United States_hysteria2_3",
         "Unknown_vless_0",
-        "Unknown_vless_1",
-        "Unknown_vless_2",
         "Unknown_vless_3"
       ]
+    },
+    {
+      "tag": "Unknown_hy2_0",
+      "type": "hysteria2",
+      "server": "2001:bc8:32d7:302::11",
+      "server_port": 33563,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Unknown_hy2_1",
+      "type": "hysteria2",
+      "server": "2001:bc8:32d7:302::11",
+      "server_port": 33563,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
     {
       "tag": "Unknown_hy_6",
@@ -526,51 +560,7 @@
     {
       "tag": "Unknown_vless_0",
       "type": "vless",
-      "server": "2001:bc8:32d7:302::11",
-      "server_port": 34324,
-      "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "dash.cloudflare.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Unknown_vless_1",
-      "type": "vless",
-      "server": "2001:bc8:32d7:302::11",
-      "server_port": 34324,
-      "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "dash.cloudflare.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Unknown_vless_2",
-      "type": "vless",
-      "server": "2001:bc8:32d7:302::11",
+      "server": "2001:bc8:32d7:302::13",
       "server_port": 34324,
       "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
       "packet_encoding": "xudp",
@@ -592,7 +582,7 @@
     {
       "tag": "Unknown_vless_3",
       "type": "vless",
-      "server": "2001:bc8:32d7:302::11",
+      "server": "2001:bc8:32d7:302::13",
       "server_port": 34324,
       "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
       "packet_encoding": "xudp",
