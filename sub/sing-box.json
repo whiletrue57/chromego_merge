@@ -131,7 +131,9 @@
         "Unknown_hy2_0",
         "Unknown_hy2_1",
         "Unknown_tuic_2",
+        "Unknown_hy2_3",
         "Unknown_tuic_4",
+        "Unknown_hy2_5",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -156,7 +158,9 @@
         "Unknown_hy2_0",
         "Unknown_hy2_1",
         "Unknown_tuic_2",
+        "Unknown_hy2_3",
         "Unknown_tuic_4",
+        "Unknown_hy2_5",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -184,7 +188,9 @@
         "Unknown_hy2_0",
         "Unknown_hy2_1",
         "Unknown_tuic_2",
+        "Unknown_hy2_3",
         "Unknown_tuic_4",
+        "Unknown_hy2_5",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -209,7 +215,9 @@
         "Unknown_hy2_0",
         "Unknown_hy2_1",
         "Unknown_tuic_2",
+        "Unknown_hy2_3",
         "Unknown_tuic_4",
+        "Unknown_hy2_5",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -256,7 +264,9 @@
         "Unknown_hy2_0",
         "Unknown_hy2_1",
         "Unknown_tuic_2",
+        "Unknown_hy2_3",
         "Unknown_tuic_4",
+        "Unknown_hy2_5",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -284,7 +294,9 @@
         "Unknown_hy2_0",
         "Unknown_hy2_1",
         "Unknown_tuic_2",
+        "Unknown_hy2_3",
         "Unknown_tuic_4",
+        "Unknown_hy2_5",
         "Unknown_hy_6",
         "🇺🇸 United States_hy_7",
         "🇳🇱 The Netherlands_hy_8",
@@ -306,7 +318,7 @@
       "tag": "Unknown_hy2_0",
       "type": "hysteria2",
       "server": "2001:bc8:32d7:302::11",
-      "server_port": 33563,
+      "server_port": 20088,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -323,7 +335,7 @@
       "tag": "Unknown_hy2_1",
       "type": "hysteria2",
       "server": "2001:bc8:32d7:302::11",
-      "server_port": 33563,
+      "server_port": 20088,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -357,6 +369,23 @@
       }
     },
     {
+      "tag": "Unknown_hy2_3",
+      "type": "hysteria2",
+      "server": "2001:bc8:32d7:302::17",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "Unknown_tuic_4",
       "type": "tuic",
       "server": "2001:bc8:32d7:302::16",
@@ -374,6 +403,23 @@
         ],
         "insecure": true,
         "server_name": "bing.com"
+      }
+    },
+    {
+      "tag": "Unknown_hy2_5",
+      "type": "hysteria2",
+      "server": "2001:bc8:32d7:302::17",
+      "server_port": 20088,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
