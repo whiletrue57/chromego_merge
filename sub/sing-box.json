@@ -419,7 +419,7 @@
     {
       "tag": "Unknown_hy_6",
       "type": "hysteria",
-      "server": "2001:bc8:32d7:312::6",
+      "server": "2001:bc8:32d7:158::4",
       "server_port": 50011,
       "up_mbps": 50,
       "down_mbps": 80,
@@ -470,7 +470,7 @@
     {
       "tag": "Unknown_hy_9",
       "type": "hysteria",
-      "server": "2001:bc8:32d7:312::6",
+      "server": "2001:bc8:32d7:158::4",
       "server_port": 50011,
       "up_mbps": 50,
       "down_mbps": 80,
