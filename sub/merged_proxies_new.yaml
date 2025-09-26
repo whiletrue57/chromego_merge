@@ -212,7 +212,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_107
+  name: China_None_ss_107
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -524,7 +524,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_1117
+  name: China_None_ss_1117
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -737,38 +737,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_3
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -819,7 +787,7 @@ proxy-groups:
   - Hong Kong_None_vmess_104
   - Japan_None_trojan_105
   - Japan_Tokyo_trojan_106
-  - China_Shenzhen_ss_107
+  - China_None_ss_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - China_Wuhan_vmess_1010
@@ -852,7 +820,7 @@ proxy-groups:
   - Hong Kong_None_vmess_1114
   - Japan_None_trojan_1115
   - Japan_Tokyo_trojan_1116
-  - China_Shenzhen_ss_1117
+  - China_None_ss_1117
   - Japan_Tokyo_trojan_1118
   - Japan_Tokyo_trojan_1119
   - China_Wuhan_vmess_1120
@@ -873,10 +841,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -901,7 +865,7 @@ proxy-groups:
   - Hong Kong_None_vmess_104
   - Japan_None_trojan_105
   - Japan_Tokyo_trojan_106
-  - China_Shenzhen_ss_107
+  - China_None_ss_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - China_Wuhan_vmess_1010
@@ -934,7 +898,7 @@ proxy-groups:
   - Hong Kong_None_vmess_1114
   - Japan_None_trojan_1115
   - Japan_Tokyo_trojan_1116
-  - China_Shenzhen_ss_1117
+  - China_None_ss_1117
   - Japan_Tokyo_trojan_1118
   - Japan_Tokyo_trojan_1119
   - China_Wuhan_vmess_1120
@@ -955,10 +919,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
