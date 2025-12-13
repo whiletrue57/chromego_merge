@@ -136,7 +136,7 @@
         "Unknown_hy_5",
         "Unknown_hy_6",
         "🇫🇷 France_hy_7",
-        "Unknown_hy_8",
+        "🇫🇷 France_hy_8",
         "Unknown_hy_9",
         "Unknown_vless_0",
         "Unknown_vless_3"
@@ -154,7 +154,7 @@
         "Unknown_hy_5",
         "Unknown_hy_6",
         "🇫🇷 France_hy_7",
-        "Unknown_hy_8",
+        "🇫🇷 France_hy_8",
         "Unknown_hy_9",
         "Unknown_vless_0",
         "Unknown_vless_3"
@@ -175,7 +175,7 @@
         "Unknown_hy_5",
         "Unknown_hy_6",
         "🇫🇷 France_hy_7",
-        "Unknown_hy_8",
+        "🇫🇷 France_hy_8",
         "Unknown_hy_9",
         "Unknown_vless_0",
         "Unknown_vless_3"
@@ -193,7 +193,7 @@
         "Unknown_hy_5",
         "Unknown_hy_6",
         "🇫🇷 France_hy_7",
-        "Unknown_hy_8",
+        "🇫🇷 France_hy_8",
         "Unknown_hy_9",
         "Unknown_vless_0",
         "Unknown_vless_3"
@@ -233,7 +233,7 @@
         "Unknown_hy_5",
         "Unknown_hy_6",
         "🇫🇷 France_hy_7",
-        "Unknown_hy_8",
+        "🇫🇷 France_hy_8",
         "Unknown_hy_9",
         "Unknown_vless_0",
         "Unknown_vless_3"
@@ -254,7 +254,7 @@
         "Unknown_hy_5",
         "Unknown_hy_6",
         "🇫🇷 France_hy_7",
-        "Unknown_hy_8",
+        "🇫🇷 France_hy_8",
         "Unknown_hy_9",
         "Unknown_vless_0",
         "Unknown_vless_3"
@@ -371,8 +371,8 @@
     {
       "tag": "Unknown_hy_6",
       "type": "hysteria",
-      "server": "2001:bc8:32d7:158::4",
-      "server_port": 50011,
+      "server": "2001:bc8:32d7:902::3",
+      "server_port": 26691,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -388,8 +388,8 @@
     {
       "tag": "🇫🇷 France_hy_7",
       "type": "hysteria",
-      "server": "62.210.10.186",
-      "server_port": 50011,
+      "server": "62.210.196.68",
+      "server_port": 26691,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -403,10 +403,10 @@
       }
     },
     {
-      "tag": "Unknown_hy_8",
+      "tag": "🇫🇷 France_hy_8",
       "type": "hysteria",
-      "server": "2001:bc8:32d7:158::2",
-      "server_port": 50011,
+      "server": "62.210.196.68",
+      "server_port": 26691,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
@@ -422,8 +422,8 @@
     {
       "tag": "Unknown_hy_9",
       "type": "hysteria",
-      "server": "2001:bc8:32d7:158::4",
-      "server_port": 50011,
+      "server": "2001:bc8:32d7:902::3",
+      "server_port": 26691,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "dongtaiwang.com",
