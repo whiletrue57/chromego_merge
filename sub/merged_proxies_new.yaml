@@ -924,7 +924,7 @@ proxies:
     headers:
       Host: 17694096392773.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_11102
+- name: None_None_trojan_11102
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
   port: 8443
@@ -1068,7 +1068,7 @@ proxies:
     headers:
       Host: 17694096396443.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_11114
+- name: None_None_trojan_11114
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
   port: 2096
@@ -1080,7 +1080,7 @@ proxies:
     headers:
       Host: 17694096397669.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_11115
+- name: None_None_trojan_11115
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
   port: 8443
@@ -1116,7 +1116,7 @@ proxies:
     headers:
       Host: 17694096397836.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: None_None_trojan_11118
+- name: United States_None_trojan_11118
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
   port: 2053
@@ -1128,7 +1128,7 @@ proxies:
     headers:
       Host: 17694096397592.206353.xyz
     path: '%2Fagrbniuh'
-- name: United States_None_trojan_11119
+- name: None_None_trojan_11119
   network: ws
   password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
   port: 8443
@@ -1615,7 +1615,7 @@ proxy-groups:
   - None_None_trojan_1199
   - None_None_trojan_11100
   - None_None_trojan_11101
-  - United States_San Francisco_trojan_11102
+  - None_None_trojan_11102
   - United States_San Francisco_trojan_11103
   - United States_San Francisco_trojan_11104
   - None_None_trojan_11105
@@ -1627,12 +1627,12 @@ proxy-groups:
   - None_None_trojan_11111
   - None_None_trojan_11112
   - None_None_trojan_11113
-  - United States_None_trojan_11114
-  - United States_None_trojan_11115
+  - None_None_trojan_11114
+  - None_None_trojan_11115
   - None_None_trojan_11116
   - United States_None_trojan_11117
-  - None_None_trojan_11118
-  - United States_None_trojan_11119
+  - United States_None_trojan_11118
+  - None_None_trojan_11119
   - Iran_Tehran_vmess_11120
   - Iran_Tehran_vmess_11121
   - Iran_Tehran_vmess_11122
@@ -1797,7 +1797,7 @@ proxy-groups:
   - None_None_trojan_1199
   - None_None_trojan_11100
   - None_None_trojan_11101
-  - United States_San Francisco_trojan_11102
+  - None_None_trojan_11102
   - United States_San Francisco_trojan_11103
   - United States_San Francisco_trojan_11104
   - None_None_trojan_11105
@@ -1809,12 +1809,12 @@ proxy-groups:
   - None_None_trojan_11111
   - None_None_trojan_11112
   - None_None_trojan_11113
-  - United States_None_trojan_11114
-  - United States_None_trojan_11115
+  - None_None_trojan_11114
+  - None_None_trojan_11115
   - None_None_trojan_11116
   - United States_None_trojan_11117
-  - None_None_trojan_11118
-  - United States_None_trojan_11119
+  - United States_None_trojan_11118
+  - None_None_trojan_11119
   - Iran_Tehran_vmess_11120
   - Iran_Tehran_vmess_11121
   - Iran_Tehran_vmess_11122
