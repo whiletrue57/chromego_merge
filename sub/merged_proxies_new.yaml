@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Tuen Mun_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1015
+  name: Hong Kong_Tuen Mun_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -294,7 +294,7 @@ proxies:
     headers:
       Host: 17722563343818.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1117
+- name: United States_San Francisco_trojan_1117
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -306,7 +306,7 @@ proxies:
     headers:
       Host: 17722563344060.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1118
+- name: None_None_trojan_1118
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2087
@@ -330,7 +330,7 @@ proxies:
     headers:
       Host: 17722563346751.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1120
+- name: None_None_trojan_1120
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2096
@@ -366,7 +366,7 @@ proxies:
     headers:
       Host: 17722563344726.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1123
+- name: United States_San Francisco_trojan_1123
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2053
@@ -546,7 +546,7 @@ proxies:
     headers:
       Host: 17722563345611.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_1138
+- name: United States_None_trojan_1138
   network: ws
   password: e4b6a49c-c806-499d-87ef-977a5c92758e
   port: 2083
@@ -713,7 +713,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1155
+  name: Hong Kong_Tuen Mun_vmess_1155
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -818,7 +818,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1168
+  name: Hong Kong_Tuen Mun_vmess_1168
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -833,7 +833,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Japan_Tokyo_trojan_103
   - Hong Kong_None_trojan_104
   - Poland_None_trojan_105
@@ -846,7 +846,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Hong Kong_Tuen Mun_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -863,13 +863,13 @@ proxy-groups:
   - Hong Kong_Kai Yi Wan_trojan_1114
   - United States_None_vmess_1115
   - None_None_trojan_1116
-  - None_None_trojan_1117
-  - United States_San Francisco_trojan_1118
+  - United States_San Francisco_trojan_1117
+  - None_None_trojan_1118
   - United States_San Francisco_trojan_1119
-  - United States_San Francisco_trojan_1120
+  - None_None_trojan_1120
   - United States_San Francisco_trojan_1121
   - United States_San Francisco_trojan_1122
-  - None_None_trojan_1123
+  - United States_San Francisco_trojan_1123
   - United States_San Francisco_trojan_1124
   - United States_San Francisco_trojan_1125
   - United States_San Francisco_trojan_1126
@@ -884,7 +884,7 @@ proxy-groups:
   - None_None_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
-  - None_None_trojan_1138
+  - United States_None_trojan_1138
   - None_None_trojan_1139
   - None_None_trojan_1140
   - None_None_vmess_1141
@@ -901,7 +901,7 @@ proxy-groups:
   - Türkiye_None_trojan_1152
   - Romania_Bucharest_trojan_1153
   - United States_None_ss_1154
-  - Hong Kong_Central_vmess_1155
+  - Hong Kong_Tuen Mun_vmess_1155
   - Japan_Tokyo_trojan_1156
   - Hong Kong_None_trojan_1157
   - Poland_None_trojan_1158
@@ -914,7 +914,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1165
   - Japan_Tokyo_trojan_1166
   - Hong Kong_None_trojan_1167
-  - Hong Kong_Central_vmess_1168
+  - Hong Kong_Tuen Mun_vmess_1168
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -922,7 +922,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Japan_Tokyo_trojan_103
   - Hong Kong_None_trojan_104
   - Poland_None_trojan_105
@@ -935,7 +935,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Hong Kong_Tuen Mun_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -952,13 +952,13 @@ proxy-groups:
   - Hong Kong_Kai Yi Wan_trojan_1114
   - United States_None_vmess_1115
   - None_None_trojan_1116
-  - None_None_trojan_1117
-  - United States_San Francisco_trojan_1118
+  - United States_San Francisco_trojan_1117
+  - None_None_trojan_1118
   - United States_San Francisco_trojan_1119
-  - United States_San Francisco_trojan_1120
+  - None_None_trojan_1120
   - United States_San Francisco_trojan_1121
   - United States_San Francisco_trojan_1122
-  - None_None_trojan_1123
+  - United States_San Francisco_trojan_1123
   - United States_San Francisco_trojan_1124
   - United States_San Francisco_trojan_1125
   - United States_San Francisco_trojan_1126
@@ -973,7 +973,7 @@ proxy-groups:
   - None_None_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
-  - None_None_trojan_1138
+  - United States_None_trojan_1138
   - None_None_trojan_1139
   - None_None_trojan_1140
   - None_None_vmess_1141
@@ -990,7 +990,7 @@ proxy-groups:
   - Türkiye_None_trojan_1152
   - Romania_Bucharest_trojan_1153
   - United States_None_ss_1154
-  - Hong Kong_Central_vmess_1155
+  - Hong Kong_Tuen Mun_vmess_1155
   - Japan_Tokyo_trojan_1156
   - Hong Kong_None_trojan_1157
   - Poland_None_trojan_1158
@@ -1003,7 +1003,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1165
   - Japan_Tokyo_trojan_1166
   - Hong Kong_None_trojan_1167
-  - Hong Kong_Central_vmess_1168
+  - Hong Kong_Tuen Mun_vmess_1168
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
